@@ -71,4 +71,8 @@ If you have suggestions for improvements or find any issues, please open an issu
 
 This project is licensed under the MIT License.
 
+## Lol?
+![image](https://github.com/user-attachments/assets/a03417d3-f041-42e8-959b-64eb648a90e7)
+
+
 ---
