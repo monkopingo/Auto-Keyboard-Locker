@@ -29,7 +29,7 @@ Keyboard Blocker is a simple utility to block your keyboard after a period of in
 3. Compile the script into a single executable using PyInstaller:
 
    ```sh
-   pyinstaller --onefile blocker.py
+   pyinstaller --onefile --noconsole blocker.py
    ```
 
    This will create a standalone executable in the `dist` directory.
