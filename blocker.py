@@ -6,16 +6,13 @@ from pystray import MenuItem as item
 from PIL import Image, ImageDraw
 import ctypes
 
-# Флаг блокировки клавиатуры
 is_locked = False
 
-# Таймер для отслеживания активности клавиатуры
 activity_timer = None
 
 # Период бездействия в секундах (12 минут)
 idle_period = 12 * 60
 
-# Список заблокированных клавиш
 blocked_keys = list(range(150)) + list(keyboard.all_modifiers)
 
 def show_blocked_message():
@@ -59,7 +56,6 @@ def reset_activity_timer():
         activity_timer.start()
 
 def create_image():
-    # Создание иконки для трея
     width = 64
     height = 64
     image = Image.new('RGB', (width, height), 'white')
@@ -103,7 +99,6 @@ def update_menu():
     icon.update_menu()
 
 if __name__ == "__main__":
-    # Начало отслеживания активности клавиатуры
     keyboard.hook(on_key_event)
     reset_activity_timer()
     
