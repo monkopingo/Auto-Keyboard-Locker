@@ -16,8 +16,8 @@ Keyboard Blocker is a simple utility to block your keyboard after a period of in
 1. Clone the repository or download the source code:
 
    ```sh
-   git clone https://github.com/yourusername/keyboard-blocker.git
-   cd keyboard-blocker
+   git clone https://github.com/monkopingo/Auto-Keyboard-Locker.git
+   cd Auto-Keyboard-Locker
    ```
 
 2. Install the required Python packages:
